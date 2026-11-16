@@ -4,10 +4,9 @@ A native macOS app for building [swiftDialog](https://swiftdialog.app) flows wit
 script by hand. You assemble a flow from steps in a GUI; DialogForge generates the swiftDialog
 commands and a complete zsh script ready for a Jamf Pro policy.
 
-> **Status: first cut, not yet compiled.** This was written in an environment without a Swift
-> toolchain. Every file passes a Swift syntax parse and the logic is covered by unit tests, but
-> nothing has been built or run yet. Expect to fix some compiler errors on the first
-> `swift build`. See [First build](#first-build).
+> **Status: first cut.** The package builds on macOS and all unit tests pass in CI, including a
+> `zsh -n` check of every generated script. The app itself has not yet been launched and used
+> by hand, so expect rough edges in the UI.
 
 ## What it does
 
