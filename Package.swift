@@ -20,6 +20,5 @@ let package = Package(
     name: "DialogForge",
     platforms: [.macOS(.v13)],
     products: products,
-    targets: targets,
-    swiftLanguageVersions: [.v5]
+    targets: targets
 )
